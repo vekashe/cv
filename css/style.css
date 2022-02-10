@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&family=Poppins&display=swap');
+body{
+    margin: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: #40514E;
+    background-color: #f1f1f1;
+
+}
+h1{
+    font-family: 'Great Vibes';
+    font-size: 5rem;
+    font-weight: 300;
+    margin: 8rem 0 0rem 0;
+}
+h2{
+    font-family: 'Poppins';
+    color: #19282F;
+}
+h3{
+    color: #19282F;
+    font-family: 'Poppins';
+}
+a{
+    font-family: 'Poppins';
+    font-size: 0.9rem;
+}
+p{
+    text-align: left;
+    font-family: 'Open Sans';
+}
+a{
+    padding: 0.5rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: #1f313a;
+    border-radius: 3px;
+}
+hr{
+    border: 6px dotted #acacac;
+    border-bottom: none;
+    margin: 50px auto;
+    width: 4%;
+}
+.banner{
+    background-color: #19282F;
+    color: white;
+    padding-bottom: 194px;
+    margin-bottom: 3rem;
+}
+.navbar{
+    padding: 1rem 0;
+    text-align: right;
+}
+.profile-picture{
+    width: 140px;
+    border-radius: 70px;
+}
+.about{
+    width:40%;
+    margin: auto auto 3rem auto;
+}
+.about-description{
+    text-align: center;
+}
+.project{
+    margin-bottom: 80px;
+}
+.project-heading{
+    margin-bottom: 50px;
+}
+.projects{
+    margin: auto;
+    width: 50%;
+}
+.project-image{
+    width: 140px;
+    border-radius: 70px;
+}
+.project-image1{
+    width: 140px;
+}
+.left-image{
+    margin: 0.5rem 2rem 0.5rem 0;
+    float: left;
+}
+.right-image{
+    margin: 0.5rem 0 0.5rem 2rem;
+    float: right;
+
+}
+.contact{
+    padding: 1rem 0rem;
+    background-color: #19282F;
+}
+.contacts{
+    padding: 1rem 0 3rem 0;
+}
+.copyright{
+    text-align: center;
+}
+@media screen and (max-width: 900px){
+    .about{
+        width:55%;
+        margin: auto auto 3rem auto;
+    }
+    .projects{
+        margin: auto;
+        width: 75%;
+    }
+}
+@media screen and (max-width: 800px){
+    .about{
+        width:70%;
+        margin: auto auto 3rem auto;
+    }
+    .projects{
+        margin: auto;
+        width: 90%;
+    }
+}
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 3rem;
+        margin-top: 134px;
+    }
+    .nav-btn1{
+        margin-right: 0;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .banner{
+        padding-bottom: 150px;
+    }
+    .about{
+        width: 95%;
+        margin: auto auto 3rem auto;
+    }
+    .projects{
+        margin: auto;
+        width: 95%;
+    }
+    .left-image{
+        margin: 0.5rem 0;
+        float: none;
+    }
+    .right-image{
+        margin: 0.5rem 0;
+        float: none;
+    }
+    .contact-list{
+        margin:0;
+        display: block;
+    }
+    .copyrights{
+        margin: 0;
+    }
+
+}
